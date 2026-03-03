@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-container {
+    background-color: #e2e5b3; /* Color beige del fondo */
+    border: 2px solid #ffa500;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background-color: #3a9dbf; /* Azul de la cabecera */
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #000;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-nav {
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid #444;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+/* Layout de Contenido */
+.content {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.left { flex: 1.5; }
+.center { flex: 2; }
+.right { flex: 1; }
+
+/* Elementos de Formulario */
+label {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+input[type="text"], textarea, select {
+    border: 1px solid #888;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+select {
+    height: 120px;
+    background: white;
+}
+
+/* Botones */
+button {
+    border: 1px solid #666;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.row-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.action-buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-light-green { background-color: #ccd991; }
+.btn-orange { background-color: #f69454; }
+.btn-red { background-color: #ff0000; color: black; font-weight: bold; }
+.btn-purple { background-color: #ccccff; }
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.form-group label {
+    width: 150px;
+    text-align: right;
+}
+
+.align-right {
+    text-align: right;
+}
